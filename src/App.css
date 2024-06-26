@@ -1,0 +1,77 @@
+.App {
+  text-align: left;
+  background-color:antiquewhite; 
+  padding: 10%;
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+h1{
+  color: black;
+  font-size: calc(30px + 2vmin);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: calc(26px + 2vmin);
+ 
+  
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-size: calc(6px + 2vmin)
+}
+
+body {
+  margin: 3;
+  background-color: hsl(0, 0%, 100%);
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  align-items: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+table {
+  background-color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 20px;
+  width: 500px;
+  
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+.container img {
+  height: 100%;
+  width: 100%
+
+}
+
+
+section{
+
+  background-color:  hsl(330, 100%, 98%);
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  border: 15px white;
+  margin: 20px;
+  border-radius: 8px 10px 12px 14px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Young Serif',
+    monospace;
+}
